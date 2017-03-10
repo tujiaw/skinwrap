@@ -29,14 +29,14 @@
     <ClCompile Include="skin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="skin_private.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="GeneratedFiles\qrc_dark.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\qrc_light.cpp">
       <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="skin_private.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -53,10 +53,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="dark.qrc">
+    <CustomBuild Include="Resources\dark.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="light.qrc">
+    <CustomBuild Include="Resources\light.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
   </ItemGroup>

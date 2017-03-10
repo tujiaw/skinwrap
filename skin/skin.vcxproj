@@ -95,7 +95,7 @@ xcopy "$(TargetDir)skin.lib" "$(ProjectDir)bin\lib" /r /y</Command>
     <ClInclude Include="skin_private.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="dark.qrc">
+    <CustomBuild Include="Resources\dark.qrc">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc%27ing %(Identity)...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
@@ -107,7 +107,7 @@ xcopy "$(TargetDir)skin.lib" "$(ProjectDir)bin\lib" /r /y</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="light.qrc">
+    <CustomBuild Include="Resources\light.qrc">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc%27ing %(Identity)...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
